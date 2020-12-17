@@ -35,7 +35,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ### 2.1 Update client config.json
 
-A. Replace "same as the id in config/config" in v2ray-macos-64/config.json with the uuid generated
+A. Replace "same as the id in config/config" in v2ray-macos-64/config.json with the uuid generated    
 B. Replace ip in v2ray-macos-64/config.json with your server ip
 
 ### 2.2 Run v2ray with the client app
