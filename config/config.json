@@ -1,12 +1,12 @@
 {
   "inbounds": [
     {
-      "port": 9999, // 服务器监听端口
-      "protocol": "vmess",    // 主传入协议
+      "port": 9999,
+      "protocol": "vmess",
       "settings": {
         "clients": [
           {
-            "id": "e720a181-1455-4061-b18e-5c9aa47176e7",  // 用户 ID，客户端与服务器必须相同
+            "id": "${cat /proc/sys/kernel/random/uuid} using linux",
             "alterId": 64
           }
         ]
@@ -15,7 +15,7 @@
   ],
   "outbounds": [
     {
-      "protocol": "freedom",  // 主传出协议
+      "protocol": "freedom",
       "settings": {}
     }
   ]
